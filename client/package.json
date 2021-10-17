@@ -1,0 +1,58 @@
+{
+    "name": "Belei",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/lab": "^4.0.0-alpha.57",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "@types/jest": "^24.0.0",
+        "@types/node": "^12.0.0",
+        "@types/react": "^16.9.0",
+        "@types/react-csv": "^1.1.1",
+        "@types/react-dom": "^16.9.0",
+        "@types/react-mathjax": "^1.0.0",
+        "@types/react-plotly.js": "^2.2.4",
+        "@types/react-router-dom": "^5.1.6",
+        "@types/react-swipeable-views": "^0.13.0",
+        "axios": "^0.19.2",
+        "clsx": "^1.1.1",
+        "notistack": "^1.0.3",
+        "plotly.js": "^1.57.1",
+        "react": "^16.13.1",
+        "react-csv": "^2.0.3",
+        "react-csv-downloader": "^2.2.0",
+        "react-dom": "^16.13.1",
+        "react-mathjax": "^1.0.1",
+        "react-plotly.js": "^2.5.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.1",
+        "react-swipeable-views": "^0.13.9",
+        "typescript": "~3.7.2"
+    },
+    "scripts": {
+        "start": "set PORT=4000 && react-scripts start",
+        "build": "react-scripts build && move build ../server",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {}
+}

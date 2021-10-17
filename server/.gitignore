@@ -1,0 +1,9 @@
+/node_modules
+/dist
+/src/config
+/src/logs
+.env
+
+# yarn
+yarn-error.log*
+yarn.lock
